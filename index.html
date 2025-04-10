@@ -14,6 +14,58 @@
     />
   </head>
   <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="assets/image/logo1 1.png" alt="Logo" />
+        </div>
+        <input type="checkbox" id="check" />
+        <label for="check">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+
+        <nav>
+          <ul class="nav-links">
+            <li class="home"><a href="#">Home</a></li>
+
+            <li class="custom-dropdown">
+              <label for="togglePackage"
+                >Package <span class="arrow">&#9662;</span></label
+              >
+              <select id="togglePackage">
+                <option value="#">Package 1</option>
+                <option value="#">Package 2</option>
+                <option value="#">Package 3</option>
+              </select>
+            </li>
+
+            <li class="custom-dropdown">
+              <label for="toggleDestination"
+                >Destination <span class="arrow">&#9662;</span></label
+              >
+              <select id="toggleDestination">
+                <option value="#">Egypt</option>
+                <option value="#">Paris</option>
+                <option value="#">Tokyo</option>
+              </select>
+            </li>
+
+            <li class="custom-dropdown">
+              <label for="toggleBlog"
+                >Blog <span class="arrow">&#9662;</span></label
+              >
+              <select id="toggleBlog">
+                <option value="#">Travel Tips</option>
+                <option value="#">Guides</option>
+              </select>
+            </li>
+
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
     <script src="/assets/script/main.js"></script>
   </body>
