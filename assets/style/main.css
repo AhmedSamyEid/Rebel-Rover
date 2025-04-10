@@ -276,6 +276,7 @@ nav {
 }
 .explore {
   margin-top: 150px;
+  flex-wrap: wrap;
 }
 .explore-new-worlds {
   text-align: center;
@@ -287,4 +288,14 @@ nav {
 .explore-new-worlds p {
   font-family: var(---fontBold);
   color: var(--Gunsmoke);
+}
+.img-exotic-natural-scenery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+.img-exotic-natural-scenery img {
+  width: 370px;
+  height: 361px;
 }
