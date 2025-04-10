@@ -6,8 +6,12 @@
 html {
   scroll-behavior: smooth;
 }
+section {
+  padding-top: 70px;
+}
 :root {
   --withe: #fff;
+  --Gunsmoke: #878787;
   ---fontBold: Arial, Helvetica, sans-serif;
   --font-poppins: "Roboto", sans-serif;
 }
@@ -204,7 +208,7 @@ nav {
   background-position: center;
   background-image: url(/assets/image/suitcase-travel-summer-holidays-vacation-travelers-luggage\ 1.png);
   height: 100vh;
-  margin-top: -115px;
+  margin-top: -180px;
 }
 .make-in-your-journey {
   flex: 1;
@@ -226,7 +230,7 @@ nav {
   display: inline-flex;
   background: white;
   border-radius: 50px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   padding: 10px;
   gap: 10px;
@@ -261,7 +265,7 @@ nav {
 
 .popular-places {
   margin-top: 20px;
-  color:var(--withe);
+  color: var(--withe);
   margin-left: 10%;
   font-family: var(--font-poppins);
 }
@@ -269,4 +273,18 @@ nav {
 .popular-places span {
   color: var(--withe);
   font-family: var(--font-poppins);
+}
+.explore {
+  margin-top: 150px;
+}
+.explore-new-worlds {
+  text-align: center;
+}
+.explore-new-worlds h2 {
+  font-family: var(--font-poppins);
+  font-size: 50px;
+}
+.explore-new-worlds p {
+  font-family: var(---fontBold);
+  color: var(--Gunsmoke);
 }
