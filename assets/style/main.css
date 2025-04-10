@@ -9,10 +9,9 @@ html {
 :root {
   --withe: #fff;
   ---fontBold: Arial, Helvetica, sans-serif;
+  --font-poppins: "Roboto", sans-serif;
 }
 .container {
-  background-image: url(/assets/image/suitcase-travel-summer-holidays-vacation-travelers-luggage\ 1.png);
-  height: 100vh;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -20,7 +19,7 @@ html {
   font-family: var(---fontBold);
 }
 .logo img {
-  height: 70px;
+  height: 60px;
 }
 .home {
   position: relative;
@@ -30,7 +29,6 @@ nav {
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 600px;
 }
 
 .nav-links {
@@ -163,6 +161,7 @@ nav {
 
   label .fa-bars {
     display: inline-block;
+    margin-top: 10px;
   }
 
   #check:checked + label .fa-bars {
@@ -181,11 +180,12 @@ nav {
     display: block;
     position: fixed;
     width: 100%;
-    height: 50%;
+    height: 60%;
     top: 20px;
     left: 30%;
     z-index: 1000;
     padding-top: 80px;
+    background-color: #5091bd;
   }
 
   .nav-links {
@@ -199,4 +199,74 @@ nav {
     font-size: 16px;
     padding: 10px;
   }
+}
+.img {
+  background-position: center;
+  background-image: url(/assets/image/suitcase-travel-summer-holidays-vacation-travelers-luggage\ 1.png);
+  height: 100vh;
+  margin-top: -115px;
+}
+.make-in-your-journey {
+  flex: 1;
+  flex-wrap: wrap;
+  margin-top: -450px;
+  margin-left: 10%;
+}
+.make-in-your-journey h1 {
+  font-size: 65px;
+  color: var(--withe);
+  font-family: var(--font-poppins);
+}
+.make-in-your-journey p {
+  color: var(--withe);
+  font-family: var(--font-poppins);
+}
+
+.search-container {
+  display: inline-flex;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  overflow: hidden;
+  padding: 10px;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 9%;
+}
+
+.search-container select {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 1em;
+  background-color: #f0f0f0;
+  appearance: none;
+  outline: none;
+}
+
+.explore-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.explore-btn:hover {
+  background-color: #333;
+}
+
+.popular-places {
+  margin-top: 20px;
+  color:var(--withe);
+  margin-left: 10%;
+  font-family: var(--font-poppins);
+}
+
+.popular-places span {
+  color: var(--withe);
+  font-family: var(--font-poppins);
 }
