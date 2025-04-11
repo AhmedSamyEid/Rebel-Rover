@@ -356,6 +356,9 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.choose h3 {
+  color: var(--black);
+}
 @media (max-width: 768px) {
   .choose {
     display: none;
