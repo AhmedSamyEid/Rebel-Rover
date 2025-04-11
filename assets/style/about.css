@@ -407,3 +407,101 @@ nav {
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
+.site-footer {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+
+.subscribe-section {
+  background: url(../../assets/image/unsplash_TejFa7VW5e4.png) no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.subscribe-section h2 {
+  font-size: 40px;
+  color: var(--withe);
+}
+
+.subscribe-section p {
+  font-size: 16px;
+  color: var(--withe);
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 100px;
+}
+
+.subscribe-form input {
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  width: 500px;
+  max-width: 80%;
+}
+
+.subscribe-form button {
+  padding: 15px 25px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.footer-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: var(--withe);
+  gap: 20px;
+}
+
+.footer-box {
+  flex: 1 1 200px;
+  min-width: 200px;
+  color: var(--black);
+}
+
+.footer-logo {
+  max-width: 250px;
+  margin-bottom: 10px;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  margin: 8px 0;
+}
+
+.footer-box ul li a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.social-icons a {
+  color: var(--black);
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.copyright {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 14px;
+}

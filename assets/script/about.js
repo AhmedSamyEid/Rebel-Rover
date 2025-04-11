@@ -48,3 +48,33 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(counter);
   });
 });
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.querySelector(".subscribe-form");
+  const emailInput = document.getElementById("email-input");
+  const message = document.getElementById("message");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const email = emailInput.value.trim();
+
+    if (email) {
+      localStorage.setItem("subscribedEmail", email);
+
+      message.textContent = "Thanks for subscribing!";
+      message.style.color = "green";
+
+      emailInput.value = "";
+    } else {
+      message.textContent = "Please enter a valid email.";
+      message.style.color = "red";
+    }
+  });
+
+  const savedEmail = localStorage.getItem("subscribedEmail");
+  if (savedEmail) {
+    console.log("Saved Email:", savedEmail);
+  }
+});
