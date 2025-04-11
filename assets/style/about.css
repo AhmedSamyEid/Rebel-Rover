@@ -64,11 +64,10 @@ header {
   height: 60px;
 }
 .home-and-about a {
-text-decoration: none;
-color: var(--withe);
-font-size: 15px;
-font-family: var(---fontBold);
-
+  text-decoration: none;
+  color: var(--withe);
+  font-size: 15px;
+  font-family: var(---fontBold);
 }
 nav {
   flex: 1;
@@ -268,7 +267,6 @@ nav {
 }
 .best-service p {
   color: var(--Gunsmoke);
-  
 }
 .best-service {
   margin-top: 400px;
@@ -315,7 +313,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-margin-top: 200px;
+  margin-top: 200px;
   color: white;
 }
 
@@ -345,4 +343,67 @@ margin-top: 200px;
 
 .stat-box p {
   font-size: 16px;
+}
+.gallery-section .title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.gallery-section .title p {
+  color: var(--Gunsmoke);
+  font-size: 30px;
+}
+
+.gallery-section .title h2 {
+  font-size: 50px;
+  font-weight: var(---fontBold);
+  color: var(--black);
+  margin: 5px 0;
+}
+
+.gallery-section .title .underline {
+  display: inline-block;
+  width: 40px;
+  height: 3px;
+  background-color: #f06292;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  gap: 30px;
+}
+
+.gallery-item.large {
+  grid-row: span 2;
+}
+
+.gallery-item img {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-item .caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: var(--withe);
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
