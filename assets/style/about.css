@@ -305,3 +305,44 @@ nav {
 .aboutus p {
   color: var(--Gunsmoke);
 }
+.stats-section {
+  background-image: url(../../assets/image/unsph_okVXy9tG3KY.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin-top: 200px;
+  color: white;
+}
+
+.overlay {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  text-align: center;
+  padding: 20px;
+  min-width: 150px;
+}
+
+.stat-box i {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.stat-box h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.stat-box p {
+  font-size: 16px;
+}
