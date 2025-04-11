@@ -9,6 +9,13 @@ document.getElementById("crescent-moon").onclick = () => {
   }
 };
 
+document.getElementById("togglePackage").addEventListener("change", function () {
+  const selectedValue = this.value;
+  if (selectedValue) {
+    window.location.href = selectedValue;
+  }
+});
+
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector(".subscribe-form");
   const emailInput = document.getElementById("email-input");

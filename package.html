@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>package</title>
+  <link rel="stylesheet"  href="assets/style/package.css"/>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet"
+/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="assets/image/logo1 1.png" alt="Logo" />
+      </div>
+      <input type="checkbox" id="check" />
+      <label for="check">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </label>
+
+      <nav>
+        <ul class="nav-links">
+          <li class="home"><a href="index.html" target="_blank">Home</a></li>
+          <li class="about">
+            <a href="about.html" target="_blank">About Us</a>
+          </li>
+
+          <li class="custom-dropdown">
+            <label for="togglePackage"
+              >Package <span class="arrow">&#9662;</span></label
+            >
+            <select id="togglePackage">
+              <option value="#">Package 1</option>
+              <option value="#">Package 2</option>
+              <option value="#">Package 3</option>
+            </select>
+          </li>
+
+          <li class="custom-dropdown">
+            <label for="toggleDestination"
+              >Destination <span class="arrow">&#9662;</span></label
+            >
+            <select id="toggleDestination">
+              <option value="#">Egypt</option>
+              <option value="#">Paris</option>
+              <option value="#">Tokyo</option>
+            </select>
+          </li>
+
+          <li class="custom-dropdown">
+            <label for="toggleBlog"
+              >Blog <span class="arrow">&#9662;</span></label
+            >
+            <select id="toggleBlog">
+              <option value="#">Travel Tips</option>
+              <option value="#">Guides</option>
+            </select>
+          </li>
+
+          <li><a href="#">Contact</a></li>
+          <img
+            class="drek"
+            src="assets/icons/crescent moon.webp"
+            id="crescent-moon"
+          />
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="make-in-your">
+    <div class="img"></div>
+    <div class="travel-packages">
+      <h1>Travel Packages</h1>
+      <br />
+      <div class="home-and-about">
+        <a href="index.html" target="_blank">Home</a>
+        <img src="assets/icons/v.png" />
+        <a href="index.html" target="_blank">About Us</a>
+      </div>
+    </div>
+    <br />
+  </section>
+  <section class="popular-destination">
+    <div class="Popular">
+      <div>
+        <h2>Popular Destination</h2>
+        <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+      </div>
+      <button class="discover-btn">Discover more</button>
+    </div>
+
+    <div class="card-grid">
+      <!-- Destination Card -->
+      <div class="card">
+        <img src="assets/image/unsplash_QAwciFlS1g4.png" alt="Paris" />
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Paris</h3>
+            <span>$299.00/2days</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card-footer">
+            <div class="stars">★★★★★</div>
+            <button class="book-btn">Booking now</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat cards for each destination -->
+      <div class="card">
+        <img src="assets/image/unsplash_IoUnv2cfx1c.png" alt="Swiss" />
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Swiss</h3>
+            <span>$299.00/3days</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card-footer">
+            <div class="stars">★★★★★</div>
+            <button class="book-btn">Booking now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/image/unsplash_gsllxmVO4HQ.png" alt="Thailand" />
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Thailand</h3>
+            <span>$299.00/3days</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card-footer">
+            <div class="stars">★★★★★</div>
+            <button class="book-btn">Booking now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/image/unsplash_UDv1n0xIpU8.png" alt="Taiwan" />
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Taiwan</h3>
+            <span>$299.00/3days</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card-footer">
+            <div class="stars">★★★★★</div>
+            <button class="book-btn">Booking now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/image/unsplash__QTeGT478_8.png" alt="Indonesia" />
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Indonesia</h3>
+            <span>$299.00/3days</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card-footer">
+            <div class="stars">★★★★★</div>
+            <button class="book-btn">Booking now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/image/unsplash_Ncmd8uLe8H0.png" alt="Singapore" />
+        <div class="card-content">
+          <div class="card-header">
+            <h3>Singapore</h3>
+            <span>$299.00/3days</span>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div class="card-footer">
+            <div class="stars">★★★★★</div>
+            <button class="book-btn">Booking now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="assets/script/package.js"></script>
+</body>
+</html>

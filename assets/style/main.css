@@ -6,9 +6,6 @@
 body {
   background-color: var(--withe);
 }
-html {
-  scroll-behavior: smooth;
-}
 section {
   padding-top: 70px;
 }
