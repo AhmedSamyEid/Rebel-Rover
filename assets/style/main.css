@@ -3,17 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: var(--withe);
+}
 html {
   scroll-behavior: smooth;
 }
 section {
   padding-top: 70px;
 }
+header {
+  position: sticky;
+  top: 0;
+  background-color: #0000009c;
+}
 :root {
   --withe: #fff;
   --Gunsmoke: #878787;
   ---fontBold: Arial, Helvetica, sans-serif;
   --font-poppins: "Roboto", sans-serif;
+}
+.crescent-moon {
+  --withe: #000000;
+  --Gunsmoke: #878787;
 }
 .container {
   padding: 20px;
@@ -24,6 +36,9 @@ section {
 }
 .logo img {
   height: 60px;
+}
+.drek  {
+  cursor: pointer;
 }
 .home {
   position: relative;
