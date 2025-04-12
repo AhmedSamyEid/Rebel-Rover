@@ -352,3 +352,137 @@ nav {
   color: var(--black);
   font-weight: bold;
 }
+.blog-details {
+  padding: 60px 20px;
+  background-color: var(--withe);
+  font-family: 'Arial', sans-serif;
+}
+
+.blog-details .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.blog-details h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: var(--Gunsmoke);
+  font-weight: bold;
+}
+
+.blog-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-body img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.blog-body p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--Gunsmoke);
+}
+
+.sidebar {
+  margin-top: 40px;
+}
+
+.sidebar .box {
+  background-color: #000;
+  color: var(--black-withe);
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+}
+
+.sidebar .box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+
+.sidebar .box p {
+  font-size: 14px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar .box strong {
+  font-weight: bold;
+  font-size: 16px;
+}
+.leave-reply {
+  padding: 60px 20px;
+  background-color: var(--withe);
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.leave-reply h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--Gunsmoke);
+}
+
+.leave-reply form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.leave-reply label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: var(--Gunsmoke);
+}
+
+.leave-reply input[type="text"],
+.leave-reply input[type="email"],
+.leave-reply input[type="url"],
+.leave-reply textarea {
+  padding: 12px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: none;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.leave-reply input:focus,
+.leave-reply textarea:focus {
+  border-color: var(--Gunsmoke);
+}
+
+.leave-reply input[type="checkbox"] {
+  margin-right: 8px;
+  accent-color: #000;
+}
+
+.leave-reply button[type="submit"] {
+  background-color: #000;
+  color: var(--withe);
+  border: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: fit-content;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.leave-reply button:hover {
+  background-color: var(--Gunsmoke);
+}

@@ -16,3 +16,31 @@ document.getElementById("togglePackage").addEventListener("change", function () 
     window.location.href = selectedValue;
   }
 });
+
+
+const form = document.querySelector(".leave-reply form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const comment = form.querySelector("textarea").value;
+  const name = form.querySelector("input[type='text']").value;
+  const email = form.querySelector("input[type='email']").value;
+  const website = form.querySelector("input[type='url']").value;
+
+  const replyData = {
+    comment,
+    name,
+    email,
+    website,
+    date: new Date().toLocaleString()
+  };
+
+  
+  let replies = JSON.parse(localStorage.getItem("replies")) || [];
+  replies.push(replyData);
+  localStorage.setItem("replies", JSON.stringify(replies));
+
+  alert("The reply has been saved in the browser.(localStorage)");
+  form.reset(); 
+});
