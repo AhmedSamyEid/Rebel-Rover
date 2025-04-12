@@ -49,6 +49,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+document.getElementById("togglePackage").addEventListener("change", function () {
+  const selectedValue = this.value;
+  if (selectedValue) {
+    window.location.href = selectedValue;
+  }
+});
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector(".subscribe-form");
