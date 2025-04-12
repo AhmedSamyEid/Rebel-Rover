@@ -243,3 +243,24 @@ nav {
     right: 5%;
   }
 }
+.img {
+  background-position: center;
+  background-image: url(../../assets/image/unsplash_JFFvPHkGTyQ.png);
+  height: 100vh;
+  margin-top: -195px;
+}
+.travel-packages {
+  flex: 1;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: -500px;
+}
+.travel-packages h1 {
+  font-size: 65px;
+  color: var(--withe);
+  font-family: var(--font-poppins);
+}
+.travel-packages p {
+  color: var(--withe);
+  font-family: var(--font-poppins);
+}
