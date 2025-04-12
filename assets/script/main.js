@@ -19,7 +19,7 @@ function storeSearchData() {
   localStorage.setItem("selectedDate", date);
   localStorage.setItem("selectedPeople", people);
 
-  alert("تم حفظ البيانات بنجاح في localStorage");
+  alert("Data was successfully saved to localStorage.");
 
 
 }
