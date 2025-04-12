@@ -9,6 +9,21 @@ document.getElementById("crescent-moon").onclick = () => {
   }
 };
 
+function storeSearchData() {
+  const location = document.getElementById("location").value;
+  const date = document.getElementById("date").value;
+  const people = document.getElementById("people").value;
+
+
+  localStorage.setItem("selectedLocation", location);
+  localStorage.setItem("selectedDate", date);
+  localStorage.setItem("selectedPeople", people);
+
+  alert("تم حفظ البيانات بنجاح في localStorage");
+
+
+}
+
 document.getElementById("togglePackage").addEventListener("change", function () {
   const selectedValue = this.value;
   if (selectedValue) {

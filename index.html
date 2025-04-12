@@ -96,31 +96,31 @@
       </div>
       <br />
       <div class="search-container">
-        <select>
+        <select id="location">
           <option>Location</option>
           <option>Bali</option>
           <option>Istanbul</option>
           <option>Rome</option>
           <option>Paris</option>
         </select>
-
-        <select>
+      
+        <select id="date">
           <option>Date</option>
           <option>Today</option>
           <option>Tomorrow</option>
           <option>Next week</option>
         </select>
-
-        <select>
+      
+        <select id="people">
           <option>People</option>
           <option>1 Person</option>
           <option>2 People</option>
           <option>Group</option>
         </select>
-
-        <button class="explore-btn">Explore now</button>
+      
+        <button class="explore-btn" onclick="storeSearchData()">Explore now</button>
       </div>
-
+      
       <p class="popular-places">
         <strong>Popular Place :</strong> <span>Bali</span>,
         <span>Istanbul</span>, <span>Rome</span>, <span>Paris</span>.
