@@ -243,7 +243,7 @@ nav {
     right: 5%;
   }
 }
-.img {
+.imgs {
   background-position: center;
   background-image: url(../../assets/image/unsplash_NXET8dOlKHU.png);
   height: 100vh;
@@ -263,4 +263,92 @@ nav {
 .travel-packages p {
   color: var(--withe);
   font-family: var(--font-poppins);
+}
+.post-preview {
+  padding: 60px 20px;
+  margin-top: 250px;
+}
+
+.post-preview .containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.post-preview .left {
+  flex: 1 1 60%;
+}
+
+.post-preview .left img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.post-preview .left p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--Gunsmoke);
+}
+
+.post-preview .right {
+  flex: 1 1 35%;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.post-preview .right h3 {
+  font-size: 36px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  color: var(--black);
+}
+
+.recent-post {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.recent-post img {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.recent-post h4 {
+  font-size: 14px;
+  margin: 0 0 5px;
+  color: var(--black);
+}
+
+.recent-post span {
+  font-size: 13px;
+  color: var(--Gunsmoke);
+}
+
+.post-preview ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.post-preview ul li {
+  font-size: 15px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eaeaea;
+  color: var(--Gunsmoke);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.post-preview ul li:hover {
+  color: var(--black);
+  font-weight: bold;
 }
