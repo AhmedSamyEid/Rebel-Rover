@@ -125,7 +125,7 @@ nav {
   display: block;
 }
 .custom-dropdown select {
-  background-color: rgb(29, 97, 244);
+  background-color: #00000000;
   color: var(--withe);
   font-family: var(---fontBold);
   outline: none;
@@ -385,10 +385,12 @@ nav {
   cursor: pointer;
   display: flex;
   gap: 30px;
+  margin-left: 15px;
 }
 
 .gallery-item.large {
   grid-row: span 2;
+  margin-left: 20px;
 }
 
 .gallery-item img {

@@ -126,7 +126,7 @@ nav {
   display: block;
 }
 .custom-dropdown select {
-  background-color: rgb(29, 97, 244);
+  background-color: #00000000;
   color: var(--withe);
   font-family: var(---fontBold);
   outline: none;
@@ -251,6 +251,7 @@ nav {
 .imgs {
   background-position: center;
   background-image: url(../../assets/image/unsplash_NXET8dOlKHU.png);
+  background-repeat: no-repeat;
   height: 100vh;
   margin-top: -195px;
 }

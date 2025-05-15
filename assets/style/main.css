@@ -144,7 +144,7 @@ nav {
 }
 
 .custom-dropdown select {
-  background-color: rgb(29, 97, 244);
+background-color: #00000000;
   color: var(--withe);
   font-family: var(---fontBold);
   outline: none;
@@ -217,6 +217,7 @@ nav {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    
   }
 
   .custom-dropdown select {
@@ -409,6 +410,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 30px;
+  cursor: pointer;
   padding: 60px 20px;
   margin-top: 200px;
 }

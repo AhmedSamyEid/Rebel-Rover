@@ -70,7 +70,8 @@ document.addEventListener("DOMContentLoaded", () => {
       localStorage.setItem("subscribedEmail", email);
 
       message.textContent = "Thanks for subscribing!";
-      message.style.color = "green";
+      message.style.color = "white";
+      message.style.fontSize = "20px";
 
       emailInput.value = "";
     } else {
